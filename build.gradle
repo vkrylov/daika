@@ -12,5 +12,6 @@ repositories {
 
 dependencies {
     compile 'org.scala-lang:scala-library:2.12.1'
+    compile 'ch.qos.logback:logback-classic:1.2.1'
     testCompile 'org.scalatest:scalatest_2.12:3.0.1'
 }
