@@ -9,5 +9,5 @@ object EntryPoint extends App {
   log debug s"Program started"
 
   val config = ConfigFactory.load() getConfig "daika"
-  new StaticHttpServer(config)
+  new TestServer(config).start()
 }
